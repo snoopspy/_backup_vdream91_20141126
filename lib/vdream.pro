@@ -14,6 +14,8 @@ android-g++ {
 }
 
 HEADERS += \
+	../include/common/vdesign.h \
+	../_vdream90/include/etc/vint.h \
 	../_vdream90/include/common/vxml.h \
 	../_vdream90/include/common/vmemoryleak.h \
 	../_vdream90/include/common/vapp.h \
@@ -29,7 +31,6 @@ HEADERS += \
 	../_vdream90/include/common/vthread.h \
 	../_vdream90/include/common/vcommon.h \
 	../_vdream90/include/common/vperformance.h \
-	../_vdream90/include/common/vdesign.h \
 	../_vdream90/include/common/vtick.h \
 	../_vdream90/include/common/vlinux.h \
 	../_vdream90/include/common/vxmldoc.h \
@@ -71,19 +72,19 @@ HEADERS += \
 	../_vdream90/include/log/vlogfile.h \
 	../_vdream90/include/log/vlogstderr.h \
 	../_vdream90/include/log/vloghttp.h \
-	../_vdream90/include/other/vdatachange.h \
-	../_vdream90/include/other/vmyobject.h \
-	../_vdream90/include/other/vdatafind.h \
-	../_vdream90/include/other/vlistwidget.h \
-	../_vdream90/include/other/vint.h \
+	../_vdream90/include/etc/vdatachange.h \
+	../_vdream90/include/etc/vmyobject.h \
+	../_vdream90/include/etc/vdatafind.h \
+	../_vdream90/include/etc/vlistwidget.h \
 	../_vdream90/include/graph/vgraphlink.h \
 	../_vdream90/include/graph/vgraphstream.h \
 	../_vdream90/include/graph/vgraph.h \
-	../_vdream90/include/graph/vgraphnode.h \
+	../_vdream90/include/graph/vgraphnode.h
 	../include/etc/vmyobj.h
 
 SOURCES += \
 	../include/common/vdesign.cpp \
+	../include/etc/vint.cpp \
 	../include/common/vcommon.cpp \
 	../_vdream90/include/common/vperformance.cpp \
 	../_vdream90/include/common/vrwobject.cpp \
@@ -134,13 +135,12 @@ SOURCES += \
 	../_vdream90/include/log/vloglist.cpp \
 	../_vdream90/include/log/vloghttp.cpp \
 	../_vdream90/include/log/vlogfile.cpp \
-	../_vdream90/include/other/vdatachange.cpp \
-	../_vdream90/include/other/vdatafind.cpp \
-	../_vdream90/include/other/vlistwidget.cpp \
-	../_vdream90/include/other/vmyobject.cpp \
-	../_vdream90/include/other/vint.cpp \
+	../_vdream90/include/etc/vdatachange.cpp \
+	../_vdream90/include/etc/vdatafind.cpp \
+	../_vdream90/include/etc/vlistwidget.cpp \
+	../_vdream90/include/etc/vmyobject.cpp \
 	../_vdream90/include/graph/vgraphnode.cpp \
 	../_vdream90/include/graph/vgraphlink.cpp \
 	../_vdream90/include/graph/vgraph.cpp \
 	../_vdream90/include/graph/vgraphstream.cpp \
-	../include/etc/vmyobj.cpp \
+	../include/etc/vmyobj.cpp

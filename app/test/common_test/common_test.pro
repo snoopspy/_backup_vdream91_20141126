@@ -12,7 +12,8 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     test1.cpp \
-    ../../../include/etc/vmyobj.cpp
+    ../../../include/etc/vmyobj.cpp \
+    ../../../include/common/vdesign.cpp
 
 HEADERS += \
     ../../../include/etc/vmyobj.h
