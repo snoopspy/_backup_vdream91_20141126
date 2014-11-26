@@ -10,7 +10,6 @@ CONFIG(debug, debug|release) {
 
 contains(QT, gui) {
 	VDREAM_LIB_NAME=$${VDREAM_LIB_NAME}_gui
-} else {
 }
 
 android-g++ {

@@ -8,3 +8,7 @@ TARGET   = $${VDREAM_LIB_NAME}
 TEMPLATE = lib
 CONFIG  += staticlib
 DESTDIR  = ../lib
+android-g++ {
+} else {
+	CONFIG  += staticlib
+}

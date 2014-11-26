@@ -1,2 +1,5 @@
+build*/
+*.a
+*.so
 *.user
 
