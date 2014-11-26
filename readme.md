@@ -16,7 +16,7 @@ Cross platform C++ library based on Qt.
 # Build
 
 # Author
-* [Gilbert Lee](http://gilgil.net)
+* [Gilbert Lee](http://www.gilgil.net)
 
 # License
 [GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/copyleft/gpl.html)
