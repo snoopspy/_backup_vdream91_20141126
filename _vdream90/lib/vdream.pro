@@ -1,21 +1,4 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2012-05-24T20:23:24
-#
-#-------------------------------------------------
-CONFIG += VDREAM_LIB_BUILD
-#QT    -= gui
-#QT    += gui widgets
 
-include (vdream.pri)
-
-TARGET   = $${VDREAM_LIB_NAME}
-TEMPLATE = lib
-android-g++ {
-} else {
-CONFIG  += staticlib
-}
-DESTDIR  = ../lib
 
 SOURCES += \
     ../include/common/vapp.cpp \
